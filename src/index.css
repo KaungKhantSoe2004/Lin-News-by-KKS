@@ -1,0 +1,355 @@
+/* navBarStart */
+.app {
+  height: 100%;
+  /* background-color: #79a7d3; */
+  background-color: #0a1c29;
+}
+.holdOn {
+  background-color: #081a27;
+}
+.navContainer {
+  background-color: #091722;
+  opacity: 0.9;
+  z-index: 2;
+}
+.logoImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.navBar {
+  /* background-color: #68a0d5; */
+  /* #091925; */
+  padding-left: 0;
+  background-color: #050e15;
+  opacity: 0.9;
+}
+.header {
+  border: solid 1px;
+}
+.topNav {
+  padding-top: 2px;
+  color: #ededed;
+}
+.saying {
+  color: #00abf0;
+  font-style: italic;
+}
+.label {
+  font-size: small;
+}
+.eachNav {
+  color: #ededed;
+  text-decoration: none;
+}
+.slider {
+  height: 2px;
+  background-color: #00abf0;
+  transition: all ease 0.6s;
+}
+.userName {
+  font-size: x-small;
+}
+.userIcon {
+  font-size: large;
+}
+.userIcon:hover {
+  color: #00abf0;
+  cursor: pointer;
+}
+
+/* navBarEnd */
+
+/* home Start */
+.home {
+  /* height: 4000px; */
+}
+.searchButton:hover {
+  background-color: #00abf0;
+}
+.ukraineText {
+  color: #ededed;
+  margin-top: 20px;
+} /* 
+.ukraineCard {
+  background-color: #071825;
+  border-radius: 9px;
+  border: solid 1px black;
+}
+.card-title {
+  color: #ededed;
+}
+.card-img-top {
+  border-radius: 10px;
+}
+.card-text {
+  color: #fcdede;
+  text-indent: 20px;
+}
+
+.toFullPage {
+  background-color: #00abf0;
+}
+.toFullPage:hover {
+  border-radius: 6px;
+  background-color: #df6006;
+} */
+.userName {
+  color: #ededed;
+}
+.resultSessionHeader {
+  color: #ededed;
+}
+.textP {
+  color: red;
+  font-size: medium;
+}
+.resultContaier {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.resultCard {
+  position: relative;
+}
+.resultCard:hover {
+  cursor: pointer;
+}
+.resultCartText {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  color: #ededed;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+.dateResultCard {
+  font-size: medium;
+}
+.errorCard {
+  background-color: #061520;
+}
+.resultImg {
+}
+
+.categoryHeader {
+  color: #ededed;
+}
+.categoryLi {
+  background-color: #091722;
+  border-radius: 8px;
+  box-shadow: #050e15;
+}
+.list-group-item:hover {
+  cursor: pointer;
+  background-color: #00abf0;
+}
+.uCardText {
+}
+.favBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #00abf0;
+  padding: 5px;
+  border-radius: 7px;
+}
+/* .fifty-chars {
+  height: 50ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-indent: 5rem;
+} */
+/* home End */
+a {
+  cursor: pointer;
+}
+.smallAgenciesContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+.eachAgency {
+  background-color: #00abf0;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 4px;
+  color: black;
+  padding-top: 3px;
+}
+.eachAgency:hover {
+  background-color: #df6006;
+  cursor: pointer;
+}
+/* categoryPage start */
+.back {
+  background-color: rgb(206, 31, 31);
+  padding: 5px;
+}
+.back:hover {
+  background-color: #00abf0;
+}
+.noArray {
+  height: 700px;
+  margin-top: 40px;
+}
+
+/* categoryPage end */
+
+/* aboutBigImg  */
+.ourCompany {
+  background-color: red;
+  position: relative;
+}
+.aboutBigImg {
+  height: 400px;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+.companyHeader {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+.chubbie {
+  text-indent: 2rem;
+}
+.eachCardAbout {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.membersHeader {
+}
+/* aboutBigImg */
+/* contact start */
+.contactHeader {
+  font-weight: normal;
+  font-style: normal;
+  padding-bottom: 0.5rem;
+  border-bottom: dotted white;
+}
+.help {
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.input {
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 6px;
+}
+.inputandlogoContainer {
+  margin-left: 2rem;
+}
+.contact {
+  padding-bottom: 400px;
+}
+.number {
+  color: rgb(156, 152, 152);
+}
+/* contact end */
+/* login start */
+.slogan {
+}
+.inputContainer {
+  margin-top: 10px;
+}
+.logInForm > input {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ededed;
+}
+.logInBtn {
+  background-color: #ededed;
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+}
+.logInBtn:hover {
+  background-color: #00abf0;
+}
+.makeAcc {
+  color: #00abf0;
+}
+.loginText {
+  color: #00abf0;
+  margin-top: 50px;
+  /* margin-bottom: 10px; */
+}
+/* login end */
+/* favorites start */
+.favorites {
+  padding-bottom: 50%;
+}
+/* favoirtes end */
+
+/* theme Dark Start */
+.themeLight {
+  background-color: #fecd45;
+  color: #000000;
+  border: none;
+}
+.colorBright {
+  color: #ff0000;
+}
+/* theme Dark end */
+
+/* responsive Start */
+@media (max-width: 800px) {
+  .textP {
+    font-size: smaller;
+    color: black;
+  }
+  .aboutBigImg {
+    height: 200px;
+  }
+  .companyHeader {
+    left: 30%;
+    font-size: medium;
+  }
+  .chubbie {
+    font-size: small;
+  }
+  .search {
+    height: 32px;
+  }
+  .resultContaier {
+    display: block;
+  }
+  .ukraineCardText {
+    top: 20px;
+  }
+  .uCardText {
+    font-size: smaller;
+  }
+  .dateResultCard {
+    font-size: small;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+  .smallAgenciesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .eachAgency {
+  }
+}
